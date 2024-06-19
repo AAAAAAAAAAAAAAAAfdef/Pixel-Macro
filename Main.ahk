@@ -52,7 +52,7 @@ global imgDir := mainDir . "images\"
 
 global camFollowMode := 0
 
-configHeader := "; dolphSol Settings`n;   Avoid putting spaces !`n;   Additions may break this file and the macro overall, please be cautious`n;   If you mess up this file, clear it entirely and restart the macro`n`n[Options]`r`n"
+configHeader := "; Pixel Settings`n;   Avoid putting spaces !`n;   Additions may break this file and the macro overall, please be cautious`n;   If you mess up this file, clear it entirely and restart the macro`n`n[Options]`r`n"
 
 global potionIndex := {0:"None"
     ,1:"Fortune Potion I"
