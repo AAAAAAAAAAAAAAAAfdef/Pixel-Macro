@@ -30,7 +30,7 @@ if (RegExMatch(A_ScriptDir,"\.zip")){
 
 Gdip_Startup()
 
-global version := "v1.4.0"
+global version := "v4.0"
 
 global robloxId := 0
 
