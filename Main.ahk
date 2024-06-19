@@ -1,14 +1,6 @@
-﻿; dolpSol Macro
+﻿; Inspired from dolpSol's Macro
 ;   A macro for Sol's RNG on Roblox
-;   GNU General Public License
 ;   Free for anyone to use
-;   Modifications are welcome, however stealing credit is not
-;   Hope you enjoy - BuilderDolphin
-;   A "small" project started on 03/07/2024
-;   
-;   https://github.com/BuilderDolphin/dolphSol-Macro
-;   
-;   Feel free to provide any suggestions (through discord preferably, @builderdolphin). 
 
 #singleinstance, force
 #noenv
@@ -60,7 +52,7 @@ global imgDir := mainDir . "images\"
 
 global camFollowMode := 0
 
-configHeader := "; dolphSol Settings`n;   Do not put spaces between equals`n;   Additions may break this file and the macro overall, please be cautious`n;   If you mess up this file, clear it entirely and restart the macro`n`n[Options]`r`n"
+configHeader := "; dolphSol Settings`n;   Avoif putting spaces !`n;   Additions may break this file and the macro overall, please be cautious`n;   If you mess up this file, clear it entirely and restart the macro`n`n[Options]`r`n"
 
 global potionIndex := {0:"None"
     ,1:"Fortune Potion I"
