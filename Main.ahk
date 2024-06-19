@@ -2100,7 +2100,7 @@ startMacro(){
     saveOptions()
 
     Gui, mainUI:+LastFoundExist
-    WinSetTitle, % "dolphSol Macro " version " (Running)"
+    WinSetTitle, % "Pixel Macro " version " (Running)"
 
     Run, % """" . A_AhkPath . """ """ mainDir . "lib\status.ahk"""
 
@@ -2128,7 +2128,7 @@ startMacro(){
 if (!options.FirstTime){
     options.FirstTime := 1
     saveOptions()
-    MsgBox, 0,dolphSol Macro - Welcome, % "Welcome to dolphSol macro!`n`nIf this is your first time here, make sure to go through all of the tabs to make sure your settings are right.`n`nIf you are here from an update, remember that you can import all of your previous settings in the Settings menu.`n`nMake sure join the Discord server and check the GitHub page for the community and future updates, which can both be found in the Credits page. (Discord link is also in the bottom right corner)"
+    MsgBox, 0,Pixel Macro - Welcome, % "Welcome to dolphSol macro!`n`nIf this is your first time here, make sure to go through all of the tabs to make sure your settings are right.`n`nIf you are here from an update, remember that you can import all of your previous settings in the Settings menu.`n`nMake sure join the Discord server and check the GitHub page for the community and future updates, which can both be found in the Credits page. (Discord link is also in the bottom right corner)"
 }
 
 if (!options.WasRunning){
