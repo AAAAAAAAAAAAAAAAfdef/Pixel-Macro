@@ -2,6 +2,7 @@
 ;   A macro for Sol's RNG on Roblox
 ;   Free for anyone to use
 
+MsgBox, 4, % "Welcome !", % "A new update is available! Would you like to head to the GitHub page to update your macro?" . (uNotes ? ("`n`nUpdate Notes:`n" . uNotes) : "")
 #singleinstance, force
 #noenv
 #persistent
